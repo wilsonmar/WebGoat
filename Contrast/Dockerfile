@@ -2,7 +2,7 @@ FROM openjdk:8-jdk
 
 # Artifact versions
 ARG CONTRAST_AGENT_VERSION=3.7.5.15480-1
-ARG WEBGOAT_VERSION=8.0.0.M21
+ARG WEBGOAT_VERSION=8.1.0
 
 # Install Contrast: using apt-get
 RUN apt-get update && apt-get install apt-transport-https
